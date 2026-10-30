@@ -9,7 +9,7 @@
 <body>
     <h1>Rohirrim Tour Booking Confirmation</h1>
  
- <?php
+<?php
         $firstname = isset($_POST["firstname"]) ? trim($_POST["firstname"]);
         $lastname  = isset($_POST["lastname"]) ? trim($_POST["lastname"]);
         $age       = isset($_POST["age"]) ? trim($_POST["age"]);
@@ -29,7 +29,7 @@
         echo "<p>Your food preference is: <strong>$food</strong>.</p>";
         echo "<p>Number of travelers: <strong>$partySize</strong>.</p>";
         echo "<p>Selected tour options: <strong>$tourOutput</strong>.</p>";
-    ?>
+?>
 </body>
 </html>
 
