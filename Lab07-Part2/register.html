@@ -7,8 +7,8 @@
 	<meta name="keywords"    content="MiddleEarth, Tours, Rohan" >
 	<meta name="author"      content="Grima Wormtongue" />
     <!-- Place the general style sheet before specific CSS so the specific overides the general formatting-->
-	<link rel="stylesheet" type="text/css" href="style/style.css" >
-	<link rel="stylesheet" type="text/css" href="style/register.css" >	
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+	<link rel="stylesheet" type="text/css" href="style/register.css">	
 </head>
 
 <body>
@@ -26,7 +26,7 @@
 	</nav>
 
 <article>
-<form id="regform" >
+<form id="regform" method="post" action="processbooking.php">
 <fieldset id="person"> 
 	<legend>Your details:</legend>
 	<p><label for="firstname">Enter your Firstname</label>
@@ -88,12 +88,7 @@
      <input type="reset" value="Reset" />
   </p>
 </form>
-<form method="post" action="processbooking.php" novalidate="novalidate">
-  <label for="name">Name:</label>
-  <input type="text" id="name" name="name">
 
-  <button type="submit">Submit</button>
-</form>
 
 </article>
 
