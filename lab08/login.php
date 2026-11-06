@@ -1,7 +1,5 @@
 <?php include ("header.inc");?>
 
-
-<h1>Lab 08 Login System</h1>
 <h2>Login</h2>
 <form method="post" action="process.php">
     <label for="username">Username:</label>
@@ -13,3 +11,4 @@
     <input type="hidden" name="token" value="abc123">
     <input type="submit" value="Login">
 </form>
+<?php include ("footer.inc");?>
